@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins',sans-serif;
+}
+section{
+    height: 40%;
+    padding-bottom: 2%;
+    float: left;
+}
+.Half-Width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.Half-Width img{
+    width: 100%;
+}
+
+#Person-Name{
+    color: salmon;
+}
+h1{
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+h3{
+    margin: 0px;
+}
+#Proffesion-Name{
+    color: blue;
+    font-weight: 400;
+}
+#Proffesion-Name:hover{
+    color: tomato;
+    font-size: 35px;
+}
+.anchor-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 1% 2%;
+    font-weight: 600;
+    border-radius: 5px;
+    color: white;
+}
+.anchor-button:hover{
+    color:gray;
+    font-size: 3vh;
+}
+p{
+    color: lightgray;
+}
+p:hover{
+    color: black;
+}
+#Biography-Header{
+    font-weight: 500;
+}
+#Biography-Header:hover{
+    color: tomato;
+}
+#Biography-Description{
+    margin-top: 15%;
+}
+#Download-Resume{
+    color: black;
+    font-weight: 500;
+}
+.Three-Width{
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+}
+
+.Three-Width img{
+    width: 100%;
+    margin-top: 20%;
+    border-radius: 50%;
+}
+.Three-Width img:hover{
+    width: 100%;
+    border-radius: 0%;
+    border:2px solid aqua;
+}
+#Title{
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 2%;
+    font-size: 35px;
+}
+.Images{
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+    background-color: white;
+}
+.Background{
+    background-image: url(header.png);
+    background-repeat: no-repeat;
+}
+.Biography{
+    background-image: url(biography.png);
+    background-repeat: no-repeat;
+}
+.Latest-Work{
+    background-image: url(latestworkbg.png);
+    background-repeat: no-repeat;
+}
+.Footer{
+    background-image: url(footer.png);
+    width: 99%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#Message-box{
+    background-image: linear-gradient(90deg,aqua,lightgreen);
+    padding: 40px 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 20px;
+    color: gray;
+    font-weight: 600;
+}
+#CopyRight{
+    margin: 10px 0px;
+    padding-top: 15px;
+}
+.Footer-Content{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+#email{
+    animation: colorchange 6s infinite;
+}
+@keyframes colorchange{
+    from{background-image: linear-gradient(45deg,limegreen,aqua);
+    color: black;}
+    to{background-image: linear-gradient(90deg,lightblue,purple);}
+}
